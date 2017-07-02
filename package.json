@@ -1,0 +1,25 @@
+{
+  "name": "alfred",
+  "version": "0.0.1",
+  "description": "",
+  "bin":{
+    "utc_convert":"./utc_converter.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjjahnke/alfred.git"
+  },
+  "author": "Jerome Jahnke <j-jahnke@tormenta.com> (http://www.tormenta.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjjahnke/alfred/issues"
+  },
+  "homepage": "https://github.com/jjjahnke/alfred#readme",
+  "dependencies": {
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13"
+  }
+}
