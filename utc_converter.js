@@ -18,7 +18,7 @@ var us_shortcuts = {
 }
 
 function getTimeZoneName(abbr) {
-  var tz = moment.tz.zone(abbr) ? moment.tz.zone(abbr).name : us_shortcuts[abbr];
+  var tz = moment.tz.zone(abbr) ? moment.tz.zone(abbr).name : us_shortcuts[abbr.toUpperCase()];
   if( tz ) return [tz];
 
   var tz_abbr = []
